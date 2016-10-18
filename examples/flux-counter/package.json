@@ -9,7 +9,7 @@
     "build": "browserify -t [ babelify --presets [ react ] ] src/index.js -o build/app.js"
   },
   "keywords": [
-    "redux"
+    "flux"
   ],
   "author": "Zhang, Qi",
   "dependencies": {
@@ -18,9 +18,10 @@
     "babel-preset-react": "^6.16.0",
     "babelify": "^7.3.0",
     "browserify": "^13.1.0",
+    "events": "^1.1.1",
+    "flux": "^3.0.0",
     "object-assign": "^1.0.0",
     "react": "^15.3.2",
-    "react-dom": "^15.3.2",
-    "redux": "^3.6.0"
+    "react-dom": "^15.3.2"
   }
 }
