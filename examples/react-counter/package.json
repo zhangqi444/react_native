@@ -1,0 +1,25 @@
+{
+  "name": "redux_counter",
+  "version": "1.0.0",
+  "description": "A simple example of Redux.",
+  "repository": "https://github.com/6061960/react_native.git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify -t [ babelify --presets [ react ] ] src/index.js -o build/app.js"
+  },
+  "keywords": [
+    "flux"
+  ],
+  "author": "Zhang, Qi",
+  "dependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-react": "^6.16.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.1.0",
+    "object-assign": "^1.0.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  }
+}
